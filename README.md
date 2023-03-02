@@ -15,8 +15,3 @@ This file contains the JavaScript code that displays the current date and time.<
 <h5>We welcome bug fixes, feature enhancements, and other improvements.</h5>
 
 ![image](https://user-images.githubusercontent.com/95699811/222538822-06462c6f-4b26-49eb-903d-b57682a96b91.png)
-
-
-<h1>License</h1>
-<h5>This application is licensed under the MIT License.</h5>
-<h5>See the LICENSE file for details.</h5>
