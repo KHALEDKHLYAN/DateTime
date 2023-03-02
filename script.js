@@ -40,3 +40,19 @@ if (hour ===0 && prepand === ' AM'){
 
 // Display the current time (hour, minute, second, and AM/PM) in the console.
 console.log("Current Time : "+hour +prepand + " : " + second);
+
+
+// Same but too short
+
+/* 
+const daylist = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const now = new Date();
+const hour = now.getHours() % 12 || 12;
+const minute = now.getMinutes();
+const second = now.getSeconds();
+const prepand = hour >= 12 ? 'PM' : 'AM';
+const suffix = (hour === 0 || hour === 12) ? (prepand === 'PM' ? 'Noon' : 'Midnight') : '';
+console.log(`Today is: ${daylist[now.getDay()]}.`);
+console.log(`Current Time: ${hour}${suffix} : ${minute} : ${second}${prepand}`);
+
+*/
